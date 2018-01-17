@@ -1,6 +1,8 @@
 #Steps
 
 This consul server starts with ui. 
+nohup ./consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1 2>&1 &
+
 Ui address is 192.168.155.33:8500/ui for the below congiration.
 
 PreConfiguration:
